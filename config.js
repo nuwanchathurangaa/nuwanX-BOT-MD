@@ -8,9 +8,9 @@ if (fs.existsSync('config.env')) {
 }
 
 const API = "https://api-aswin-sparky.koyeb.app";
-const HANDLERS = process.env.HANDLER || "^";
+const HANDLERS = process.env.HANDLER || "X-BOT-MD:ExplainStaten;
 const SESSION_ID = process.env.SESSION_ID || "X-BOT-MD:ExplainStaten;
-const SUDO = process.env.SUDO || '917012984396';
+const SUDO = process.env.SUDO || '94766859177';
 const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
 const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "true";
 const BOT_INFO = process.env.BOT_INFO || "X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg";
